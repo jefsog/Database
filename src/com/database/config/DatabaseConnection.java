@@ -1,4 +1,6 @@
-package com.database;
+package com.database.config;
+
+import com.database.tables.impl.Result;
 
 import java.sql.*;
 

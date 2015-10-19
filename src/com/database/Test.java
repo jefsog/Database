@@ -1,5 +1,7 @@
 package com.database;
 
+import com.database.config.DatabaseConnection;
+
 import java.sql.SQLException;
 
 /**

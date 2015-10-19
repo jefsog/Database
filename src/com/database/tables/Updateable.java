@@ -1,4 +1,6 @@
-package com.database;
+package com.database.tables;
+
+import com.database.config.DatabaseConnection;
 
 /**
  * Created by Jonathan on 10/11/2015.

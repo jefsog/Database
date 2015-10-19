@@ -1,4 +1,6 @@
-package com.database;
+package com.database.tables.impl;
+
+import com.database.tables.Updateable;
 
 /**
  * Created by Jonathan on 10/11/2015.

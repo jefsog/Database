@@ -1,4 +1,7 @@
-package com.database;
+package com.database.tables.impl;
+
+import com.database.tables.Updateable;
+import com.database.tables.impl.student.Student;
 
 /**
  * Created by Jonathan on 10/11/2015.

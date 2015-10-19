@@ -1,4 +1,4 @@
-package com.database;
+package com.database.tables.impl.student;
 
 /**
  * Created by Jonathan on 10/11/2015.
