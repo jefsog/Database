@@ -12,4 +12,5 @@ public interface Updateable {
 	default void execute(String query) {
 		DatabaseConnection.instance.execute(query);
 	}
+
 }
