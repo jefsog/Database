@@ -1,11 +1,11 @@
 package com.database.tables.impl.student;
 
-import com.database.tables.Updateable;
+import com.database.tables.Table;
 
 /**
  * Created by Jonathan on 10/11/2015.
  */
-public final class Student implements Updateable {
+public final class Student implements Table {
 
 	private final Transcript transcript;
 	private final String id;
