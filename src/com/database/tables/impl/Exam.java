@@ -43,7 +43,7 @@ public final class Exam implements Table {
 	}
 
 	@Override
-	public void update() {
+	public void sync() {
 		//TODO
 	}
 }

@@ -49,7 +49,7 @@ public final class Room implements Table {
 	 * @return roomType
 	 */
 	@Override
-	public void update() {
+	public void sync() {
 		//TODO
 	}
 }

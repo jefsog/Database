@@ -42,7 +42,7 @@ public final class Course implements Table {
 	}
 
 	@Override
-	public void update() {
+	public void sync() {
 		//TODO
 	}
 }

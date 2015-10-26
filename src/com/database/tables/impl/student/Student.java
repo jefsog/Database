@@ -36,8 +36,9 @@ public final class Student implements Table {
 	}
 
 	@Override
-	public void update() {
-		String query = "INSERT INTO STUDENTS(ID, FIRST_NAME, LAST_NAME) VALUES(" + id + "," + first + "," + last + ")";
+	public void sync() {
+		String query = "INSERT INTO STUDENTS(FIRST_NAME, LAST_NAME, STUDENT_ID, ENROLLMENT_DATE, GRADUATION_DATE) VALUES(" + first
+				+ "," + last + "," + id + ")";
 		execute(query);
 	}
 }

@@ -8,9 +8,9 @@ import com.database.config.DatabaseConnection;
 public interface Table {
 
     /**
-     * The update method to add/read from the database initially.
+     * The sync method to add/read from the database initially.
      */
-	void update();
+	void sync();
 
     /**
      * DO NOT OVERRIDE
