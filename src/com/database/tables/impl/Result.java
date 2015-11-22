@@ -1,4 +1,4 @@
-package com.database;
+package com.database.tables.impl;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

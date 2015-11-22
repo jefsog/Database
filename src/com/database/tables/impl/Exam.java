@@ -1,9 +1,12 @@
-package com.database;
+package com.database.tables.impl;
+
+import com.database.tables.Table;
+import com.database.tables.impl.student.Student;
 
 /**
  * Created by Jonathan on 10/11/2015.
  */
-public final class Exam implements Updateable {
+public final class Exam implements Table {
 
 	private final String courseCode;
 	private final String roomNumber;
@@ -40,7 +43,7 @@ public final class Exam implements Updateable {
 	}
 
 	@Override
-	public void update() {
+	public void sync() {
 		//TODO
 	}
 }

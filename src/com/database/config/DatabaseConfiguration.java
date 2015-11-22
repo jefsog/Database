@@ -1,11 +1,15 @@
-package com.database;
+package com.database.config;
 
 /**
  * Created by Jonathan on 10/5/2015.
  */
 public final class DatabaseConfiguration {
 
-	public static final DatabaseConfiguration DEFAULT = new DatabaseConfiguration("dilbert.humber.ca", 1521, "AUTHOR", "n01045921", "oracle");
+	/**
+	 * Default database configuration.
+	 */
+	public static final DatabaseConfiguration DEFAULT = new DatabaseConfiguration("dilbert.humber.ca", 1521, "AUTHOR", "n01057566", "oracle");
+
 	/**
 	 * The database server host
 	 */

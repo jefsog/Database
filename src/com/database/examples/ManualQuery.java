@@ -1,11 +1,13 @@
-package com.database;
+package com.database.examples;
+
+import com.database.config.DatabaseConnection;
 
 import java.sql.SQLException;
 
 /**
  * Created by Jonathan on 10/5/2015.
  */
-public final class Test {
+public final class ManualQuery {
 
 	public static void main(String[] args) {
 		/**

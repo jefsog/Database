@@ -1,9 +1,11 @@
-package com.database;
+package com.database.tables.impl.student;
+
+import com.database.tables.Table;
 
 /**
  * Created by Jonathan on 10/11/2015.
  */
-public final class Student implements Updateable {
+public final class Student implements Table {
 
 	private final Transcript transcript;
 	private final String id;
@@ -34,8 +36,9 @@ public final class Student implements Updateable {
 	}
 
 	@Override
-	public void update() {
-		String query = "INSERT INTO STUDENTS(ID, FIRST_NAME, LAST_NAME) VALUES(" + id + "," + first + "," + last + ")";
+	public void sync() {
+		String query = "INSERT INTO STUDENTS(FIRST_NAME, LAST_NAME, STUDENT_ID, ENROLLMENT_DATE, GRADUATION_DATE) VALUES(" + first
+				+ "," + last + "," + id + ")";
 		execute(query);
 	}
 }

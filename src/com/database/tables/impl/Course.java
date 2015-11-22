@@ -1,9 +1,11 @@
-package com.database;
+package com.database.tables.impl;
+
+import com.database.tables.Table;
 
 /**
  * Created by Jonathan on 10/11/2015.
  */
-public final class Course implements Updateable {
+public final class Course implements Table {
 	
 	private final String courseCode;
 	private final String programCode;
@@ -40,7 +42,7 @@ public final class Course implements Updateable {
 	}
 
 	@Override
-	public void update() {
+	public void sync() {
 		//TODO
 	}
 }
